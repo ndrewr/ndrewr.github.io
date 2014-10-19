@@ -1,4 +1,6 @@
-
+/*
+/* Stylesheet for Project Hub page hosted on Git Pages based on P1 and P2
+/*
 /*NOTE TO SELF!!!!
 /* font combos to try: ubuntu and volkorn, ubuntu and open sans
 /* css-tricks: gleamy buttons, shade-outs, ribbon ends, tool-tips
@@ -95,6 +97,8 @@ body {
 }
 .feature-section:after {
 
+	display: none;
+
     content: "";
     position: fixed;
     top: 0;
@@ -137,8 +141,8 @@ body {
 .say-my-name {
 	font-family: 'Righteous';
 	font-size: 3em;
-	color: #FFF;
-	background: #25AAE1;
+	color: #25AAE1;
+	background: #FFF;
 	text-align: center;
 	padding-top: 10px;
 	position: fixed;
@@ -147,7 +151,7 @@ body {
 } 
 .logo {
 	font-size: 1.2em;
-	background-color: #25AAE1;
+	background-color: #fff;
 	/*position: absolute;
 	-webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); */
@@ -157,6 +161,7 @@ body {
 }
 .bottom-logo {
 	display: none;
+	color: #25AAE1;
 
 }
 
@@ -193,7 +198,6 @@ body {
 
 footer p {
 	margin-top: 20px;
-	color: #fff;
 }
 
 
@@ -276,7 +280,7 @@ footer p {
 	.say-my-name {
 		font-family: 'Righteous';
 		font-size: 3em;
-		color: #FFF;
+		color: #25AAE1;
 		text-align: center;
 	}
 	.logo {
@@ -303,7 +307,7 @@ footer p {
   	font-size: 4em;
   }
   #self-intro {
-  	padding-top: 100px;
+  	padding-top: 93px;
   }
 
   .feature-heading {

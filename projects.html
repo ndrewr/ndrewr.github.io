@@ -1,0 +1,28 @@
+---
+layout: page
+title: Code
+---
+
+<div>
+
+  <p>here are some things I built.</p>
+  <div class="posts">
+    {% for project in site.projects %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ project.link }}">
+          {{ project.title }}
+        </a>
+      </h1>
+      <h4>
+        > {{ project.description }}
+      </h4>
+      <div>
+        <img src="{{ project.screenshot }}">
+      </div>
+      {{ project.content }}
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

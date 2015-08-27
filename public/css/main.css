@@ -1,0 +1,26 @@
+/*
+  custom styles for Hyde-based Jekyll portfolio page
+  author: Andrew Roy Chen
+  last mod: August 2015
+*/
+
+
+.welcome-text {
+  font-family: monospace;
+}
+
+.sidebar-about h1:hover {
+  text-decoration: none;
+  /*border-bottom: 1px solid #FFF;*/
+}
+
+.sidebar-about a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #FFF;
+}
+
+@media (max-width: 48em) {
+  .sidebar {
+    border-radius: 0 0 12em 12em;
+  }
+}

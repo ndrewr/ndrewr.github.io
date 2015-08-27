@@ -4,17 +4,16 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+   Having a canvas on which to create. A medium to deliver what I make to anyone. The leverage to contribute beyond arm's reach. I love working on the front-end of web development.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Admittedly, it took me years to figure out why I wanted to invest my energies shaping software. I went many places and have done many things in the interim. I finally reached the intersection described above and have been furiously revving down this path ever since.
 
-There are currently two themes built on Poole:
+I am the kind of engineer who stops to admire a clever layout; who will compulsively [wappalyze](https://wappalyzer.com/) a web page he has never visited. I am the type who is willing to give hours for that moment he strikes on the perfect font; who will trade days to save milliseconds of User load time.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I work well by myself, in solemn or raucous environments. I thrive with good people, and love to see quality ingredients coalesce into a magical whole. Whether for a client, with a parter or among a team I burn to do great works.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Please feel free to check out some of the things I have been building on [GitHub]({{ site.github.main }}).
 
 ## Setup
 
@@ -22,9 +21,7 @@ Some fun facts about the setup of this project include:
 
 * Built for [Jekyll](http://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+* Inspired by the development experiences shared by [Development Seed](https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) and [on the blog](http://joshualande.com/jekyll-github-pages-poole/) of Joshua Lande.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!

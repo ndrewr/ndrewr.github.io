@@ -4,6 +4,7 @@
 */
 console.log('lets do this');
 
+
 // vanilla version of event delegation
 // sauce: Ian Clark, stackoverflow.com/a/23978597/2415751
 (function(document, EventTarget) {
@@ -76,7 +77,7 @@ var closeCard = function(e) {
 };
 
 // set up click of project list item to open project card
-document.getElementById("project-list").delegateEventListener("click", ".project-list__item", openCard);
+document.body.delegateEventListener("click", ".project-list__item", openCard);
 
 // set up card close btn
 document.body.delegateEventListener("click", ".card-close-btn", closeCard);

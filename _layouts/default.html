@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class=" {% if page.title == "Home" %} hide-sidebar{% endif %} ">
 
     {% include sidebar.html %}
 
@@ -12,4 +12,22 @@
     </div>
 
   </body>
+
+  <script src="{{ site.baseurl }}public/js/main.js"></script>
+  {% if page.title == "Home" %}
+  <script>
+    document.addEventListener("click", function() {
+      document.querySelector("body").classList.remove("hide-sidebar");
+      document.querySelector("body").classList.add("welcome-texture");
+      document.querySelector(".welcome-info-front").classList.remove("welcome-open");
+      document.querySelector(".welcome-info-back > h3").textContent = "cheers!";
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+      setTimeout(function(){
+        document.querySelector(".welcome-info-front").classList.add("welcome-open");
+      }, 5000);
+    });
+  </script>
+  {% endif %}
 </html>

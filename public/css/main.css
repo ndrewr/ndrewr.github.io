@@ -4,6 +4,153 @@
   last mod: August 2015
 */
 
+html, body {
+    height: 100%;
+
+}
+
+.welcome {
+  height: 100%;
+  padding: 2rem 0;
+}
+
+/********flip btn */
+.welcome-sign {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	/*box-shadow: 0 1px 2px rgba(0,0,0,0.1);*/
+	cursor: default;
+  text-align: center;
+}
+
+.welcome-img {
+	background-image: url(http://tympanus.net/Tutorials/CircleHoverEffects/images/16.jpg);
+}
+
+.welcome-texture {
+  background-color: #fffcfc;
+background-image: url(http://www.transparenttextures.com/patterns/groovepaper.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.welcome-info-wrap,
+.welcome-info{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	transition: all 0.4s ease-in-out;
+}
+
+.welcome-info-wrap {
+	top: 10px;
+	left: 10px;
+	background: #f9f9f9 url(../images/bg.jpg);
+	box-shadow:
+		0 0 0 10px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(230,230, 150, 0.8);
+	perspective: 800px;
+}
+
+.welcome-info {
+	transform-style: preserve-3d;
+}
+
+.welcome-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	transition: all 0.6s ease-in-out;
+}
+
+.welcome-info .welcome-info-front {
+	transform-origin: 50% 100%;
+	z-index: 100;
+  background: #fff;
+	/*box-shadow: inset 2px 1px 4px rgba(0,0,0,0.1);*/
+}
+
+.welcome-info .welcome-info-back {
+	background: rgba(230,132,107,0.6) url(http://www.transparenttextures.com/patterns/groovepaper.png);
+
+}
+
+.welcome-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	margin: 0 15px;
+	padding: 20px 0 0 0;
+	height: 40px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow:
+		0 0 1px #fff,
+		0 1px 2px rgba(0,0,0,0.3);
+  transform: translateY(50%);
+}
+
+.welcome-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 20px;
+	font-size: 9px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.welcome-info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 8px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.welcome-info p a:hover {
+	color: rgba(255,242,34, 0.8);
+}
+
+.welcome-sign:hover .welcome-info-front {
+	transform: rotate3d(1,0,0,-180deg);
+	box-shadow:
+		inset 0 0 5px rgba(255,255,255,0.2),
+		inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.welcome-open {
+  transform: rotate3d(1,0,0,-180deg);
+  box-shadow:
+    inset 0 0 5px rgba(255,255,255,0.2),
+    inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.welcome-sign:hover .welcome-info-back {
+	background: rgba(230,132,107,0.6);
+}
+/* *********************** */
+
+body,
+.sidebar {
+    transition: transform 1s ease-in-out;
+}
+
+.hide-sidebar {
+    transform: translateX(-18rem);
+}
+
+.project-img {
+    max-width: 600px;
+}
 
 .welcome-text {
   font-family: monospace;
@@ -19,8 +166,100 @@
   border-bottom: 3px solid #FFF;
 }
 
+.sidebar-nav-item.active {
+  font-size: 1.5em;
+}
+
+#project-list ul {
+  list-style: none;
+}
+
+.project-list__item {
+  margin: 0 0 2em 0;
+  position: relative;
+}
+
+.project-list__item::before {
+    content: "View details";
+    font-size: 1.5em;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    padding: 1em;
+    background-color: #DDD;
+    width: 95%;
+    height: 50%;
+}
+
+.project-list__item:hover::before {
+  opacity: .99;
+}
+
+.project-list__item__title {
+  background-color: #000;
+  color: #FFF;
+  display: inline-block;
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.project-list__item__label {
+  display: inline-block;
+  height: 50px;
+  padding: 5px;
+}
+
+.project {
+  position: absolute;
+  top: 0;
+  /*right: 0;*/
+  /*width: 100%;*/
+  width: 50%;
+  height: 100%;
+  padding: 1em;
+  opacity: .97;
+  overflow-y: scroll;
+  border-radius: .5em;
+}
+
+.card-close-btn {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  padding: .5em;
+  background: #FFF;
+  text-align: center;
+}
+
+.project[data-state=closed] {
+  display: none;
+  background: blue;
+}
+.project[data-state=open] {
+  display: inherit;
+  background: #DDD;
+}
+
+.project--no-select {
+  z-index: -100;
+  opacity: 0;
+}
+
+
+
 @media (max-width: 48em) {
   .sidebar {
     border-radius: 0 0 12em 12em;
+  }
+
+  .hide-sidebar {
+    transform: translateY(-26rem);
+  }
+
+  .project {
+    width: 100%;
+    left: 0;
+    position: fixed;
   }
 }

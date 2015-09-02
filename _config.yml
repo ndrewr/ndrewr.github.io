@@ -9,7 +9,7 @@ highlighter:      pygments
 # Setup
 title:            andrew roy chen
 tagline:          'works by Andrew Roy'
-description:      'traversing the front-end'
+description:      'front-end engineer'
 url:              http://localhost:4000/
 baseurl:          /
 

@@ -3,17 +3,28 @@ layout: page
 title: About
 ---
 
+
+*Why make software?*
+
+CS degree in hand, I could not yet answer that question. Instead I went off to many places to do many other things. Years later I came upon the intersection.
+
 <p class="message">
-   Having a canvas on which to create. A medium to deliver what I make to anyone. The leverage to contribute beyond arm's reach. I love working on the front-end of web development.
+   To Create and Contribute.
 </p>
 
-Admittedly, it took me years to figure out why I wanted to invest my energies shaping software. I went many places and have done many things in the interim. I finally reached the intersection described above and have been furiously revving down this path ever since.
+The web provided collaboration and endless resources. It took friction out of distribution. Barriers were erased and I felt invigorated.
 
-I am the kind of engineer who stops to admire a clever layout; who will compulsively [wappalyze](https://wappalyzer.com/) a web page he has never visited. I am the type who is willing to give hours for that moment he strikes on the perfect font; who will trade days to save milliseconds of User load time.
+**I still do!**
 
-I work well by myself, in solemn or raucous environments. I thrive with good people, and love to see quality ingredients coalesce into a magical whole. Whether for a client, with a parter or among a team I burn to do great works.
+I have become the kind of engineer who pauses to parse layout; who compulsively [wappalyzes](https://wappalyzer.com/) web pages. I'll fork over hours for a moment of code clarity; trade days to save precious seconds of User load time.
+
+I work well by myself but I thrive with good people, whether in solemn or raucous environments. Whether for a client, with a parter or among a team I am burning to do great works.
 
 Please feel free to check out some of the things I have been building on [GitHub]({{ site.github.main }}).
+
+A copy of my resume is [right here]({{ site.linkedin }}).
+I am on [LinkedIn]({{ site.linkedin }}), too.
+
 
 ## Setup
 

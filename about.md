@@ -1,12 +1,14 @@
 ---
 layout: page
 title: About
+published: true
 ---
 
 
-*Why make software?*
 
-CS degree in hand, I could not yet answer that question. Instead I went off to many places to do many other things. Years later I came upon the intersection.
+*Why software?*
+
+As a fresh CS graduate, I had no idea. My time in university left me feeling uninspired. Directionless, I went off to other places to do other things. Only years later did I came upon the intersection.
 
 <p class="message">
    To Create and Contribute.

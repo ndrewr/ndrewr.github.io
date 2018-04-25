@@ -2,7 +2,7 @@
 layout: project
 title: geoMuze
 description: Location-flavored music search
-link: http://demo.geomuze.xyz
+link: https://ndrewr.github.io/udacityP5
 screenshot: public/images/geomuze-screen1.png
 ---
 GeoMuze turns location search terms into song track recommendations.

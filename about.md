@@ -44,11 +44,3 @@ A copy of my resume is [right here]({{site.resume}}).
 
 You can also find me on [LinkedIn]({{site.linkedin}}).
 
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built with [Jekyll](http://jekyllrb.com)
-* Hosted for free on [GitHub Pages](https://pages.github.com)
-* Inspired by the development experiences shared by [Development Seed](https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) and [on the blog](http://joshualande.com/jekyll-github-pages-poole/) of Joshua Lande.

@@ -1,6 +1,5 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
 
 # Permalinks
 # permalink:        pretty
@@ -15,7 +14,7 @@ baseurl:          /
 
 author:
   name:           'Andrew Roy Chen'
-  url:            'hai.anzu.xyz'
+  url:            'https://uncleoptimus.github.io'
 
 # Collections
 collections:
@@ -26,7 +25,7 @@ collections:
 version:          2.2.1
 
 github:
-  main:           https://github.com/uncleoptimus
-  repo:           https://github.com/uncleoptimus/hyde-arc
+  main:           https://github.com/ndrewr
+  repo:           https://github.com/ndrewr/ndrewr.github.io
 
-linkedin:         https://www.linkedin.com/in/anzuchen
+linkedin:         https://www.linkedin.com/in/ndrewr

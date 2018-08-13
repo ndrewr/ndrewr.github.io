@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Call Me Maybe</title>
+    <meta name="description" content="A page to call me">
+    <meta name="author" content="Andrew R Chen">
+    <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+    <style>
+      a[href^="tel:"] {
+        color: orange;
+        text-decoration: none;
+      }
+      
+      [href^="tel:"]:before {
+        content: "\260e";
+        margin-right: 0.5em;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="call">
+        <a href="tel:+13232389656" class="call_link">
+          Call me @ 3232389656
+        </a>
+      </h1>
+    </div>
+    <script>
+      
+    </script>
+  </body>
+</html>
+

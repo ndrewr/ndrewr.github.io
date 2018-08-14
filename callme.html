@@ -8,13 +8,37 @@
     <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
     <style>
       a[href^="tel:"] {
-        color: orange;
+        color: white;
         text-decoration: none;
       }
       
       [href^="tel:"]:before {
         content: "\260e";
         margin-right: 0.5em;
+      }
+
+      h1.call {
+        text-align: center;
+        min-height: 400px;
+      }
+
+      a {
+        display: inline-block;
+        background-color: cornflowerblue;
+        padding: 2rem;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 5rem;
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.65);;
+        transition: all 0.2s;
+      }
+
+      a:hover {
+        background-color: orange;
+      }
+
+      a:active {
+        box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.65);
       }
 
     </style>

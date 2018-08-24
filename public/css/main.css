@@ -21,16 +21,19 @@ html, body {
   height: 100%;
   padding: 2rem 0;
   transition: height 0.5s ease;
+  transition-delay: 1s;
 }
 
 .rollup {
-  height: 0%;
+  height: 0;
+  padding: 0;
+  overflow-y: hidden;
 }
 
 .quote {
   opacity: 0;
   transition: opacity 1s;
-  transition-delay: 0.5s;
+  transition-delay: 2s;
 }
 
 .fadein {

@@ -20,7 +20,22 @@ html, body {
 .welcome {
   height: 100%;
   padding: 2rem 0;
+  transition: height 0.5s ease;
 }
+
+.rollup {
+  height: 0%;
+}
+
+.quote {
+  opacity: 0;
+  transition: opacity 1s;
+  transition-delay: 0.5s;
+}
+
+.fadein {
+  opacity: 1.0;
+}  
 
 /********flip btn */
 .welcome-sign {

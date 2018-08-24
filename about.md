@@ -24,6 +24,6 @@ You can also find me on [LinkedIn]({{site.linkedin}}).
 
 Oh and I also just took the [VIA Character
 Survey](https://www.viacharacter.org/www/Character-Strengths-Survey).
-If curious how my personality shakes out [click
+If curious how my personality jives [click
 here]({{site.character}}).
 
